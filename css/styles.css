@@ -44,29 +44,32 @@ body {
 }
 .container {
   width: 1158px;
-  
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: solid tomato;
 }
 .text-style-body {
-
-  
+outline: solid tomato;
+  width: 264px;
+  margin-right: 24px;
 
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-.box-hero {
+.section-hero {
   width: 1440px;
-  height: 600px;
+ outline:solid tomato;
   background: var(--hero-background);
-  margin-bottom: 120px;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 .hero-title {
-  padding-top: 188px;
-  padding-left: 472px;
-  padding-right: 472px;
-  padding-bottom: 48px;
- margin: 0;
+  width: 496px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-bottom: 48px;
   
   color: var(--primary-white-color);
   font-weight: 700;
@@ -82,19 +85,19 @@ body {
 .section-light {
   background-color: var(--light-text-color);
 }
-.box-advantages {
+.section-advantages {
   width: 1128px;
-  margin-top: 0;
-  margin-right: 156px;
-  margin-left: 156px;
-  margin-bottom: 120px;
+  outline: solid tomato;
+  padding: 120px 156px 120px 156px;
 }
 
 .secondary-title {
-  margin-bottom: 72ps;
-  margin-right: auto;
-  margin-left: auto;
-
+ 
+  width: 323px;
+ outline: solid tomato; 
+margin-right:auto;
+margin-left: auto;
+margin-bottom: 72px;
  
       text-align: center;
       text-transform: capitalize;
@@ -110,9 +113,7 @@ body {
 
 .text-header-contacts {
 
-width: 151px;
-  height: 24px;
-  margin-left: 940px;
+
 
   font-size: 16px;
   line-height: 1.5;
@@ -162,14 +163,13 @@ text-decoration: none;
 
 
 .btn {
-   
-    margin-left: 635px;
-    margin-bottom: 188px;
-    margin-right: 636px;
-    padding-top: 16px;
-      padding-right: 32px;
-      padding-bottom: 16px;
-      padding-left: 32px;
+  display:block;
+      width: 169px;
+      border: 2px var(--hero-background);
+      border-radius: 4px;
+      padding: 16px 32px;
+  margin-left: auto;
+  margin-right: auto;
     
 
     font-weight: 500;
@@ -191,12 +191,8 @@ text-decoration: none;
 }
  
 .btn-dark {
-  margin-right: 24px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-right: auto;
-  padding-left: auto;
- border: transparent;
+  
+ 
   
     font-weight: 500;
     font-size: 16px;
@@ -239,15 +235,10 @@ text-decoration: none;
 }
 .third-title {
 
+  width: 264px;
   margin-right: 24px;
-  margin-bottom: 8px;
-
-
   
-  
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+
 
   font-size: 20px;
   font-weight: 500;
@@ -261,7 +252,7 @@ text-decoration: none;
 .logo {
     
     width: 115px;
-    height: 24px;
+    
 
     font-family: var(--secondary-font);
     font-weight: 800;
@@ -282,14 +273,12 @@ text-decoration: none;
   color: var(--light-text-color)
 }
 .logo-footer {
-  
-  margin-right: 1169px;
   margin-bottom: 16px;
   
   
 }
 .logo-header {
-  margin-right: 76px;
+  
 }
 
 
@@ -321,34 +310,44 @@ margin: 0;
 padding: 0;
 
 }
-.box-doing {
-  margin-bottom: 120px;
-  margin-right: 156px;
-  margin-left: 156px;
-
+.section-doing {
+  padding: 0 156px 120px 156px;
   width: 1128px;
+  outline: 2px solid tomato;
+
 }
-.img {
-  margin-right: 24px;
+
+
+img {
+  display:block;
+  max-width: 100%;
+  height: auto;
+  outline: 2px solid tomato;
 }
-.box-team {
+.section-team {
   width: 1440px;
+  outline: 2px solid tomato;
+  padding: 120px 156px 120px 156px;
+  background-color:var(--light-text-color);
 
 
 }
-.container-footer {
+.card {
+
+}
+.section-footer {
   width: 1440px;
   background-color: var(--hero-background);
-  height: 312px;
-  padding-top: 100px;
-  padding-left: 156px;
+  
+  padding:100px 1020px 100px 156px;
+  outline: 2px solid tomato;
 
 }
-.container-header {
-  padding-top: 24px;
-  padding-left: 156px;
-  padding-bottom: 24px;
+.section-header {
+  width: 1440px;
+  padding: 24px 76px 24px 156px;
   border-bottom:  1px solid var(--hero-background) ;
+  outline: 2px solid tomato;
   
 }
 .menu-nav {
