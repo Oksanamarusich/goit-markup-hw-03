@@ -25,8 +25,14 @@
     --secondary-font: Raleway, sans-serif;
     
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
+  
  
   background-color: var(--primary-white-color)  ;
   color:var(--main-text-color);
@@ -36,14 +42,31 @@ body {
   
     
 }
+.container {
+  width: 1158px;
+  
+}
 .text-style-body {
+
+  
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-
+.box-hero {
+  width: 1440px;
+  height: 600px;
+  background: var(--hero-background);
+  margin-bottom: 120px;
+}
 .hero-title {
+  padding-top: 188px;
+  padding-left: 472px;
+  padding-right: 472px;
+  padding-bottom: 48px;
+ margin: 0;
   
   color: var(--primary-white-color);
   font-weight: 700;
@@ -59,12 +82,20 @@ body {
 .section-light {
   background-color: var(--light-text-color);
 }
+.box-advantages {
+  width: 1128px;
+  margin-top: 0;
+  margin-right: 156px;
+  margin-left: 156px;
+  margin-bottom: 120px;
+}
 
 .secondary-title {
-  
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.11;
+  margin-bottom: 72ps;
+  margin-right: auto;
+  margin-left: auto;
+
+ 
       text-align: center;
       text-transform: capitalize;
     color:var(--title-color);
@@ -78,6 +109,11 @@ body {
 }
 
 .text-header-contacts {
+
+width: 151px;
+  height: 24px;
+  margin-left: 940px;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -92,6 +128,11 @@ body {
 
  
 .light-text-body {
+   
+  width: 264px;
+    height: 72px;
+    margin-right: 1020px;
+    margin-bottom: 100px;
 
     text-decoration: none;
     text-transform: none;
@@ -102,6 +143,9 @@ body {
 
 
 .text-header {
+
+  
+
   font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -118,7 +162,16 @@ text-decoration: none;
 
 
 .btn {
-  
+   
+    margin-left: 635px;
+    margin-bottom: 188px;
+    margin-right: 636px;
+    padding-top: 16px;
+      padding-right: 32px;
+      padding-bottom: 16px;
+      padding-left: 32px;
+    
+
     font-weight: 500;
     font-size: 16px;
     align-items: center;
@@ -138,6 +191,12 @@ text-decoration: none;
 }
  
 .btn-dark {
+  margin-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: auto;
+  padding-left: auto;
+ border: transparent;
   
     font-weight: 500;
     font-size: 16px;
@@ -180,6 +239,16 @@ text-decoration: none;
 }
 .third-title {
 
+  margin-right: 24px;
+  margin-bottom: 8px;
+
+
+  
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -190,6 +259,10 @@ text-decoration: none;
 
 
 .logo {
+    
+    width: 115px;
+    height: 24px;
+
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
@@ -208,9 +281,21 @@ text-decoration: none;
 .logo-span-light {
   color: var(--light-text-color)
 }
+.logo-footer {
+  
+  margin-right: 1169px;
+  margin-bottom: 16px;
+  
+  
+}
+.logo-header {
+  margin-right: 76px;
+}
 
 
 .list {
+  margin: 0;
+  padding: 0;
 list-style: none;
 text-decoration: none;
 
@@ -228,4 +313,52 @@ text-decoration: none;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+
+h1,h2,h3,h4,p,ul {
+margin: 0;
+padding: 0;
+
+}
+.box-doing {
+  margin-bottom: 120px;
+  margin-right: 156px;
+  margin-left: 156px;
+
+  width: 1128px;
+}
+.img {
+  margin-right: 24px;
+}
+.box-team {
+  width: 1440px;
+
+
+}
+.container-footer {
+  width: 1440px;
+  background-color: var(--hero-background);
+  height: 312px;
+  padding-top: 100px;
+  padding-left: 156px;
+
+}
+.container-header {
+  padding-top: 24px;
+  padding-left: 156px;
+  padding-bottom: 24px;
+  border-bottom:  1px solid var(--hero-background) ;
+  
+}
+.menu-nav {
+  width: 261px;
+    height: 24px;
+    margin-right: 332px;
+}
+.buttons-portfolio {
+  padding-top: 96px;
+  padding-right: 427px;
+  padding-bottom: 109px;
+  padding-left: 427px;
 }
