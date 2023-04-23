@@ -65,9 +65,9 @@ body {
 .btn {
   display:block;
       min-width: 169px;
-      min-height: 56px;
+      height: 56px;
       padding: 16px 32px;
-      border: 2px var(--hero-background);
+      border: none;
       border-radius: 4px;
       
   margin-left: auto;
@@ -96,7 +96,7 @@ body {
   
 border: 1px solid var(--border-buttoms);
   border-radius: 4px;
-padding: 11px 23px;
+padding: 12px 24px;
   
     font-weight: 500;
     font-size: 16px;
@@ -114,6 +114,7 @@ padding: 11px 23px;
 .btn-dark:focus {
   background: var(--secondary-accent-color);
   color: var(--primary-white-color);
+  border: 1px solid transparent;
 }
 
 img {
@@ -189,11 +190,11 @@ flex-basis: calc ((100%-var(--indent)* (var(--items)-1))/ var(--items));
 .header-container {
 display: flex;
 align-items: center;
-padding: 0;
+
 }
 .logo {
     margin-right: 76px;
-    width: 115px;
+    
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
@@ -235,11 +236,12 @@ padding: 0;
 .menu-nav {
   display: flex;
 margin-right: auto;
+align-items: center;
   
 }
 .list-header {
   display:flex;
-  align-items: center;
+  
   gap: 40px;
   
   
@@ -247,7 +249,7 @@ margin-right: auto;
 
 .contacts-list {
   display:flex;
-  align-items: center;
+  
   gap: 40px;
 }
 .contacts  {
@@ -278,7 +280,7 @@ margin-right: auto;
 */
 
 .hero-title {
-  width: 496px;
+ max-width: 496px
  margin-right: auto;
  margin-left: auto;
  margin-bottom: 48px;
@@ -311,14 +313,18 @@ margin-right: auto;
   |============================
 */
 .section-advantages {
-  display: flex;
+  
   padding: 120px 0;
 }
 
 .list-advantages {
   display: flex;
   align-items: center;
+  gap: 24px;
 
+}
+.item-advantages {
+  width: calc((100% - 72px) / 4);
 }
 
 
@@ -351,10 +357,10 @@ margin-right: auto;
 */
 
 .section-doing {
-  
+  padding-bottom: 120px;
 }
 .container-doing {
-  padding: 0;
+  
 }
 
 .secondary-title {
@@ -404,7 +410,7 @@ justify-content: center;
   |============================
 */
 .section-portfolio {
-  padding-bottom: 120px;
+  padding: 96px 0 120px;
 }
 
 .buttons-portfolio {
@@ -417,7 +423,9 @@ justify-content: center;
 }
 .list-buttons {
   display: flex;
+  justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 
 }
 .portfolio-card {
@@ -436,7 +444,9 @@ border-left:1px solid var(--border-buttoms); ;
 }
 
 .card-list {
-
+display: flex;
+flex-wrap: wrap;
+row-gap: 48px
 }
 
   
