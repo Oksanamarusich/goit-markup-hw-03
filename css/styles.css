@@ -173,7 +173,8 @@ flex-wrap: wrap;
 gap: var(--indent);
 }
 .card-set-item {
-flex-basis: calc ((100%-var(--indent)* (var(--items)-1))/ var(--items));
+/*flex-basis: calc ((100%-var(--indent)* (var(--items)-1))/ var(--items));*/
+width: calc((100% - 72px) / 4)
 }
 
 /**
@@ -401,6 +402,8 @@ margin-left: auto;
 .card-text {
 padding-top: 32px;
 padding-bottom: 32px;
+padding-left: 16px;
+padding-right: 16px;
 text-align: center;
 
 
