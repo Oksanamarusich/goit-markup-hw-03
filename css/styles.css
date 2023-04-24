@@ -173,8 +173,8 @@ flex-wrap: wrap;
 gap: var(--indent);
 }
 .card-set-item {
-/*flex-basis: calc ((100%-var(--indent)* (var(--items)-1))/ var(--items));*/
-width: calc((100% - 72px) / 4)
+flex-basis: calc ((100%-var(--indent)* (var(--items)-1))/ var(--items));
+
 }
 
 /**
